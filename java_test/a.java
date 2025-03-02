@@ -1,9 +1,12 @@
 package java_test;
-
+import java.util.Scanner;
 public class a {
     public static void main(String[] args) {
 
-        // 이 부분에 code를 작성해주세요!
+        Scanner sc = new Scanner(System.in);
+        char[] s = sc.next().toCharArray();
+        for (int i = 2; i >= 0; i--) {
+            System.out.print(s[i]);
 
     }
 
